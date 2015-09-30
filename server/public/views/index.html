@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="app">
+    <head lang="en">
+        <meta charset="UTF">
+        <title>Angular Challenge</title>
+        <script src="/vendor/angular/angular.min.js" type="text/javascript"></script>
+        <script src="/assets/scripts/app.min.js" type="text/javascript"></script>
+    </head>
+    <body ng-controller="MainController">
+        <h1>Presidential Election</h1>
+            <button ng-click="listCandidates()">List of Candidates</button>
+            <ul>
+                <li ng-repeat="democrats in demsArray">{{democrats.name}}</li>
+            </ul>
+            <ul>
+                <li ng-repeat="republicans in repsArray">{{republicans.name}}</li>
+            </ul>
+        <button ng-show="showSecondButton" ng-click="selectWinner()">Choose Winner</button>
+                <div ng-show="showWinner">
+                    <p>The next President is {{winner}}</p>
+                </div>
+
+    </body>
+</html>
