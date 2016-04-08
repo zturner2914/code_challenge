@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/angularchallenge.iml" filepath="$PROJECT_DIR$/.idea/angularchallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/codeChallenge.iml" filepath="$PROJECT_DIR$/.idea/codeChallenge.iml" />
     </modules>
   </component>
 </project>
